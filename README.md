@@ -4,6 +4,9 @@ A Unity prototype application designed for moblie Augmented Reality
 ## What is the goal of ShoppingAR?
 To be added..
 
+## Screenshots
+To be added..
+
 ## Task List
 - [x] Barcode reader for mobile
 - [ ] Barcode reader for Unity Editor
@@ -12,9 +15,6 @@ To be added..
 - [ ] Basic UI
 - [ ] Algorithm for product scoring
 - [ ] Visual representation of scoring 2D(UI)/3D
-
-## Screenshots
-To be added..
 
 ## Libraries Used
 Following libraries are being used in this project
