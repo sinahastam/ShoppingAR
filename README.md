@@ -9,7 +9,7 @@ To be added..
 
 ## Task List
 - [x] Barcode reader for mobile
-- [ ] Barcode reader for Unity Editor
+- [x] Barcode reader for Unity Editor
 - [x] Receive data from OpenFoodFacts database
 - [ ] Converting product data (JSON -> Object)
 - [ ] Basic UI
