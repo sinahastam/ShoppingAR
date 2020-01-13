@@ -4,7 +4,7 @@ using UnityEngine;
 using Vuforia;
 using ZXing;
 using System;
-using TMPro; // Add the TextMesh Pro namespace to access the various functions.
+using TMPro;
 
 
 [AddComponentMenu("System/QRScanner")]
@@ -16,6 +16,7 @@ public class QRScanner : MonoBehaviour
 
     //Output of barcode data
     public TextMeshProUGUI textUI;
+    
 
     void Start()
     {
@@ -35,7 +36,7 @@ public class QRScanner : MonoBehaviour
         StartCoroutine(InitializeCamera());
 
         //Repeat Scan every repeatRate
-        InvokeRepeating("Decode", 1.5f, 1.5f);
+        InvokeRepeating("Decode", 1f, 1f);
     }
 
     private IEnumerator InitializeCamera()
@@ -94,7 +95,13 @@ public class QRScanner : MonoBehaviour
                     // Barcode detected.
                     Debug.Log("Detected");
                     Debug.Log(data.Text);
-                    textUI.text = "Detected:" + data.Text;
+
+                    //show barcode number on UI
+                    textUI.text = data.Text;
+
+                    //Call API Data
+                    GameObject.Find("OpenFoodFactsAPIReader").GetComponent<OpenFoodFactsAPIReader>().GetJsonData();
+
                     Handheld.Vibrate();
                     data = null;
                 }
@@ -107,7 +114,13 @@ public class QRScanner : MonoBehaviour
                         // Barcode detected.
                         Debug.Log("Detected");
                         Debug.Log(dataRotated.Text);
-                        textUI.text = "Detected:" + dataRotated.Text;
+
+                        //show barcode number on UI
+                        textUI.text = dataRotated.Text;
+
+                        //Call API Data
+                        GameObject.Find("OpenFoodFactsAPIReader").GetComponent<OpenFoodFactsAPIReader>().GetJsonData();
+
                         Handheld.Vibrate();
                         dataRotated = null;
                     }
@@ -121,11 +134,6 @@ public class QRScanner : MonoBehaviour
             }
 
         }
-    }
-
-    private void Update()
-    {
-
     }
 
 }

@@ -28,20 +28,20 @@ public class UIManager : MonoBehaviour
     }
 
     //enable/disable flash
+    bool isFlashActive;
     public void ToggleFlashButton()
     {
-        Button button = GameObject.Find("FlashIcon").GetComponent<Button>();
-
-        if (button.colors.selectedColor.Equals(Color.white))
+        if(isFlashActive == false)
         {
             Vuforia.CameraDevice.Instance.SetFlashTorchMode(true);
-            button = ChangeButtonColor(button, Color.yellow);
+            isFlashActive = true;
         }
-        else
+        else if(isFlashActive == true)
         {
             Vuforia.CameraDevice.Instance.SetFlashTorchMode(false);
-            button = ChangeButtonColor(button, Color.white);
+            isFlashActive = false;
         }
+
         ButtonHapticFeedback();
     }
 
@@ -51,16 +51,6 @@ public class UIManager : MonoBehaviour
 
 
     //======================== [ Helper methods ] ========================
-
-
-    //Change selectedColor of button
-    public static Button ChangeButtonColor(Button button, Color newColor)
-    {
-        ColorBlock newColors = button.colors;
-        newColors.selectedColor = newColor;
-        button.colors = newColors;
-        return button;
-    }
 
     //This will peform an Android haptic feedback
     void ButtonHapticFeedback()
