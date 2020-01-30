@@ -1,26 +1,12 @@
 # ShoppingAR - Unity
 A Unity prototype application designed for moblie Augmented Reality
 
-## What is the goal of ShoppingAR?
-To be added..
 
 ## Screenshots
-To be added..
+<img src="https://i.postimg.cc/NjXGyMJY/Screenshot-20200120-160729-Shopping-AR.jpg" width="360">
 
-## Task List
-- [x] Barcode reader for mobile
-- [x] Barcode reader for Unity Editor
-- [x] Receive data from OpenFoodFacts database
-- [ ] Converting product data (JSON -> Object)
-- [ ] Basic UI
-- [ ] Algorithm for product scoring
-- [ ] Visual representation of scoring 2D(UI)/3D
+<img src="https://i.postimg.cc/3R83bZKJ/Screenshot-20200120-160817-Shopping-AR.jpg" width="360">
 
-## Libraries Used
-Following libraries are being used in this project
+<img src="https://i.postimg.cc/mrNbwnW5/Screenshot-20200120-160854-Shopping-AR.jpg" width="360">
 
-- [Zxing](https://github.com/zxing/zxing) - ZXing ("Zebra Crossing") barcode scanning library
-- [SimpleJSON](https://github.com/HenrikPoulsen/SimpleJSON) - A C# json reader/writer which is Unity3D compatible
-
-## Authors
-* **Sina Haddadi Sedehi** - 566440
+<img src="https://i.postimg.cc/HLCYbgRM/Screenshot-20200120-161154-Shopping-AR.jpg" width="360">
