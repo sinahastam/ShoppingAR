@@ -3,32 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Class for managing the UI
+/// </summary>
 public class UIManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
 
     //======================== [ Button methods ] ========================
-
-
 
     public void TestButton()
     {
         ButtonHapticFeedback();
     }
 
-    //enable/disable flash
+    /// <summary>
+    /// Shows if flashlight is on or off
+    /// </summary>
     bool isFlashActive;
+
+    /// <summary>
+    /// Toggles the flashlight
+    /// </summary>
     public void ToggleFlashButton()
     {
         if(isFlashActive == false)
@@ -52,7 +47,9 @@ public class UIManager : MonoBehaviour
 
     //======================== [ Helper methods ] ========================
 
-    //This will peform an Android haptic feedback
+    /// <summary>
+    /// This will peform an Android haptic feedback
+    /// </summary>
     void ButtonHapticFeedback()
     {
        HapticFeedback();

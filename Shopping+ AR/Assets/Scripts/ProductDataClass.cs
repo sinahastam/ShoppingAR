@@ -3,6 +3,7 @@
 //    using OpenFoodFactsAPIData;
 //
 //    var productDataClass = ProductDataClass.FromJson(jsonString);
+//    Auto-Generated class from API response
 
 namespace OpenFoodFactsAPIData
 {
@@ -13,6 +14,10 @@ namespace OpenFoodFactsAPIData
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
+
+    /// <summary>
+    /// Class for storing/handling all API data of a product from OpenFoodFacts
+    /// </summary>
     public partial class ProductDataClass
     {
         [JsonProperty("product", NullValueHandling = NullValueHandling.Ignore)]

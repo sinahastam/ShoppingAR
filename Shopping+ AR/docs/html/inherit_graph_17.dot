@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SimpleJSON.JSONNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_simple_j_s_o_n_1_1_j_s_o_n_node.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="SimpleJSON.JSONArray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_simple_j_s_o_n_1_1_j_s_o_n_array.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SimpleJSON.JSONBool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_simple_j_s_o_n_1_1_j_s_o_n_bool.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SimpleJSON.JSONNull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_simple_j_s_o_n_1_1_j_s_o_n_null.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SimpleJSON.JSONNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_simple_j_s_o_n_1_1_j_s_o_n_number.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SimpleJSON.JSONObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_simple_j_s_o_n_1_1_j_s_o_n_object.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SimpleJSON.JSONString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_simple_j_s_o_n_1_1_j_s_o_n_string.html",tooltip=" "];
+}

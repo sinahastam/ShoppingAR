@@ -7,21 +7,46 @@ using TMPro;
 using OpenFoodFactsAPIData;
 using UnityEngine.UI;
 
+
+
+/// <summary>
+/// Class for handling API data from OpenFoodFacts
+/// </summary>
 public class OpenFoodFactsAPIReader : MonoBehaviour
 {
-    //Barcode of Product
+    /// <summary>
+    /// Variable for barcode number of current product
+    /// </summary>
     public TextMeshProUGUI barcode;
-    //Json Gui output on screen
+
+    /// <summary>
+    /// Variable for printing JSON product data on screen
+    /// </summary>
     public TextMeshProUGUI productAPIData;
 
     private string productJson;
 
+    /// <summary>
+    /// The current product
+    /// </summary>
     public ProductDataClass productObject;
+
     private bool jsonIsDone = false;
 
+    /// <summary>
+    /// Image from product
+    /// </summary>
     public Image productImage;
+
+    /// <summary>
+    /// Product Name
+    /// </summary>
     public TextMeshProUGUI productName;
 
+    /// <summary>
+    /// Requests product data from OpenFoodFacts using current barcode number 
+    /// </summary>
+    /// @see barcode
     public void GetJsonData()
     {
         //barcode.text = "20005733";  //hardcoded product barcode for testing
@@ -66,6 +91,9 @@ public class OpenFoodFactsAPIReader : MonoBehaviour
         jsonIsDone = true;
     }
 
+    /// <summary>
+    /// Downloads image of product from web and displays it on UI
+    /// </summary>
     IEnumerator CreateImageFromDownloadedTexture()
     {
         using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(ProductManager.GetCurrentProduct().Product.ImageUrl))
@@ -82,6 +110,7 @@ public class OpenFoodFactsAPIReader : MonoBehaviour
                 // Get downloaded texture once the web request completes
                 Texture2D texture = DownloadHandlerTexture.GetContent(uwr);
 
+                //Displaying image on UI
                 productImage.preserveAspect = true;
                 productImage.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0, 0));
 

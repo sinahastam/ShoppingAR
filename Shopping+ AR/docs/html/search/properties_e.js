@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['packaging_742',['Packaging',['../class_open_food_facts_a_p_i_data_1_1_product.html#a5a0ff17843cd8478344541cc93581549',1,'OpenFoodFactsAPIData::Product']]],
+  ['packagingdebugtags_743',['PackagingDebugTags',['../class_open_food_facts_a_p_i_data_1_1_product.html#a6a631d9fbfd6c809fbb44c6a5dbc1586',1,'OpenFoodFactsAPIData::Product']]],
+  ['packagingtags_744',['PackagingTags',['../class_open_food_facts_a_p_i_data_1_1_product.html#abfb3629634aff7e59d7d8c2de0e855c6',1,'OpenFoodFactsAPIData::Product']]],
+  ['percent_745',['Percent',['../class_open_food_facts_a_p_i_data_1_1_ingredient.html#a04a4ca2bc39e09dc4bb7ae579c400de0',1,'OpenFoodFactsAPIData::Ingredient']]],
+  ['photographerstags_746',['PhotographersTags',['../class_open_food_facts_a_p_i_data_1_1_product.html#a3d67d7fb024dc90110499376107d25e5',1,'OpenFoodFactsAPIData::Product']]],
+  ['pnnsgroups1_747',['PnnsGroups1',['../class_open_food_facts_a_p_i_data_1_1_product.html#a37dbd51771ef655251120d8057eb5f04',1,'OpenFoodFactsAPIData::Product']]],
+  ['pnnsgroups1_5ftags_748',['PnnsGroups1_Tags',['../class_open_food_facts_a_p_i_data_1_1_product.html#acac7e627802f7516fd3636744f0dd7b0',1,'OpenFoodFactsAPIData::Product']]],
+  ['pnnsgroups2_749',['PnnsGroups2',['../class_open_food_facts_a_p_i_data_1_1_product.html#a395ea562e3ba23023a9f03c9d8f2512e',1,'OpenFoodFactsAPIData::Product']]],
+  ['pnnsgroups2_5ftags_750',['PnnsGroups2_Tags',['../class_open_food_facts_a_p_i_data_1_1_product.html#ad7f37828b27349bc266ac885a00ff930',1,'OpenFoodFactsAPIData::Product']]],
+  ['producerversionid_751',['ProducerVersionId',['../class_open_food_facts_a_p_i_data_1_1_product.html#afab309bb5ed1a9734c4b35c681e2c60b',1,'OpenFoodFactsAPIData::Product']]],
+  ['product_752',['Product',['../class_open_food_facts_a_p_i_data_1_1_product_data_class.html#a57a967acbe2eaf9e6b4a5be9c959cdfe',1,'OpenFoodFactsAPIData::ProductDataClass']]],
+  ['productid_753',['ProductId',['../class_open_food_facts_a_p_i_data_1_1_product.html#a44418f2df65445181a878509d4f7191e',1,'OpenFoodFactsAPIData::Product']]],
+  ['productname_754',['ProductName',['../class_open_food_facts_a_p_i_data_1_1_product.html#ab01cf5b19c7ae1c77ac3b56df7176de9',1,'OpenFoodFactsAPIData::Product']]],
+  ['productnamefr_755',['ProductNameFr',['../class_open_food_facts_a_p_i_data_1_1_product.html#a4492a4d4375968674d85c2bbc91b0e53',1,'OpenFoodFactsAPIData::Product']]],
+  ['productnamefrdebugtags_756',['ProductNameFrDebugTags',['../class_open_food_facts_a_p_i_data_1_1_product.html#a2af231da377cacb2540f844085b4d690',1,'OpenFoodFactsAPIData::Product']]],
+  ['productquantity_757',['ProductQuantity',['../class_open_food_facts_a_p_i_data_1_1_product.html#abe8f6b0cbdf3ce952307ceb40b4f87e9',1,'OpenFoodFactsAPIData::Product']]],
+  ['proteins_758',['Proteins',['../class_open_food_facts_a_p_i_data_1_1_nutriments.html#a6c162f9b3789336b5f7d5684d3afea2a',1,'OpenFoodFactsAPIData::Nutriments']]],
+  ['proteins100g_759',['Proteins100G',['../class_open_food_facts_a_p_i_data_1_1_nutriments.html#a464999b1f100b999a7f18c432f00a64f',1,'OpenFoodFactsAPIData::Nutriments']]],
+  ['proteinsserving_760',['ProteinsServing',['../class_open_food_facts_a_p_i_data_1_1_nutriments.html#ac6a1417b5a4d87626b4ae40b99ea20b0',1,'OpenFoodFactsAPIData::Nutriments']]],
+  ['proteinsunit_761',['ProteinsUnit',['../class_open_food_facts_a_p_i_data_1_1_nutriments.html#a327243e4b4b7526a09851b6f314a35fa',1,'OpenFoodFactsAPIData::Nutriments']]],
+  ['proteinsvalue_762',['ProteinsValue',['../class_open_food_facts_a_p_i_data_1_1_nutriments.html#a4a13cf766aa02f25d6656c065ad0cb8a',1,'OpenFoodFactsAPIData::Nutriments']]],
+  ['purchaseplaces_763',['PurchasePlaces',['../class_open_food_facts_a_p_i_data_1_1_product.html#a0edfc448eb2f21753cc200ae164e4454',1,'OpenFoodFactsAPIData::Product']]],
+  ['purchaseplacesdebugtags_764',['PurchasePlacesDebugTags',['../class_open_food_facts_a_p_i_data_1_1_product.html#ae7c892c30378889c20f8ade0f56a8d60',1,'OpenFoodFactsAPIData::Product']]],
+  ['purchaseplacestags_765',['PurchasePlacesTags',['../class_open_food_facts_a_p_i_data_1_1_product.html#a47809638fc4559a50c05498eb06a0303',1,'OpenFoodFactsAPIData::Product']]]
+];

@@ -38,6 +38,9 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
+/// <summary>
+/// A simple JSON parser in C# https://github.com/Bunny83/SimpleJSON
+/// </summary>
 namespace SimpleJSON
 {
     public enum JSONNodeType
